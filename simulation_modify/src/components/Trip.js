@@ -74,11 +74,11 @@ const ICON_MAPPING = {
   marker: { x: 0, y: 0, width: 128, height: 128, mask: true },
 };
 // mapbox 스타일 변경
-// 최소, 최대 시간 설정 (10:00 ~ 18:00)
-const minTime = 600; // 10:00
-const maxTime = 1080; // 18:00
+// 최소, 최대 시간 설정 (min ~ max)
+const minTime = 600; // min
+const maxTime = 1090; // max
 
-const animationSpeed = 0.5;
+const animationSpeed = 0.1;
 const mapStyle = "mapbox://styles/doyeonryu/clxa4e4wo01ox01rb7yhw4pg3";
 
 const MAPBOX_TOKEN = `pk.eyJ1IjoiZG95ZW9ucnl1IiwiYSI6ImNsdWpjN2hsNTBkeHcycG51NWt0dWZpemMifQ.ZMBCEwB4IVUT4X2RYbjT-A`;
@@ -206,7 +206,7 @@ const Trip = (props) => {
       id: 'scatterplot-layer', // 레이어 ID
       data: point_car, // 데이터 소스 (차량 포인트)
       getPosition: d => d.coordinates, // 포인트 좌표
-      getFillColor: [255, 255, 255], // 포인트 색상 (흰색)
+      getFillColor: [255, 255, 0], // 포인트 색상 (흰색)
       getRadius: d => 3, // 포인트 반경
       getLineWidth: 3, // 테두리 두께
       radiusScale: 2, // 반경 스케일 조정

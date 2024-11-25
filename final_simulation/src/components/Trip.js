@@ -61,7 +61,7 @@ const INITIAL_VIEW_STATE = {
   // 가천대 글로벌캠퍼스로 위치 변경
   longitude: 127.128846, // 126.98 , -74
   latitude: 37.450724, // 37.57 , 40.72
-  zoom: 15,
+  zoom: 15.7,
   pitch: 30,
   bearing: 0
 };

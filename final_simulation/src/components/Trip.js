@@ -175,7 +175,7 @@ const Trip = (props) => {
       data: trip_car, // 데이터 소스 (차량 경로)
       getPath: d => d.route, // 차량 경로 데이터
       getTimestamps: d => d.timestamp, // 타임스탬프
-      getColor: [255, 255, 0], // 차량 경로 색상 (노랑)
+      getColor: [0, 123, 167], // 차량 경로 색상 (celadon blue)
       opacity: 1, // 투명도
       widthMinPixels: 7, // 경로 두께
       capRounded : true, // 경로 끝 모서리를 둥글게
@@ -206,7 +206,7 @@ const Trip = (props) => {
       id: 'scatterplot-layer', // 레이어 ID
       data: point_car, // 데이터 소스 (차량 포인트)
       getPosition: d => d.coordinates, // 포인트 좌표
-      getFillColor: [255, 255, 0], // 포인트 색상 (흰색)
+      getFillColor: [0, 123, 167], // 포인트 색상 (celadon blue)
       getRadius: d => 3, // 포인트 반경
       getLineWidth: 3, // 테두리 두께
       radiusScale: 2, // 반경 스케일 조정

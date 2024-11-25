@@ -78,7 +78,7 @@ const ICON_MAPPING = {
 const minTime = 600; // min
 const maxTime = 1095; // max
 
-const animationSpeed = 0.1;
+const animationSpeed = 0.5;
 const mapStyle = "mapbox://styles/doyeonryu/clxa4e4wo01ox01rb7yhw4pg3";
 
 const MAPBOX_TOKEN = `pk.eyJ1IjoiZG95ZW9ucnl1IiwiYSI6ImNsdWpjN2hsNTBkeHcycG51NWt0dWZpemMifQ.ZMBCEwB4IVUT4X2RYbjT-A`;

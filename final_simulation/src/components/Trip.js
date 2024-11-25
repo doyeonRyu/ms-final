@@ -76,7 +76,7 @@ const ICON_MAPPING = {
 // mapbox 스타일 변경
 // 최소, 최대 시간 설정 (min ~ max)
 const minTime = 600; // min
-const maxTime = 1095; // max
+const maxTime = 1087; // max
 
 const animationSpeed = 0.5;
 const mapStyle = "mapbox://styles/doyeonryu/clxa4e4wo01ox01rb7yhw4pg3";
